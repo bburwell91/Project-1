@@ -92,7 +92,23 @@ footer.page-footer {
 	padding-top: 15px;
 }
 
+.resize-artist {
+	width: 300px;
+	padding: 10px 10px 0 0;
+	display: inline-block;
+}
 
+#event-card {
+	float: right;
+	text-align: right;
+}
+
+#display-band {
+	display: block;
+	padding: 2px 15px 7px 0;
+	font-weight: bolder;
+	color: #000 !important;
+}
 
 .black-shadows-color {
     background-color: lightgray;
@@ -112,6 +128,13 @@ img.logo {
   }
 }
 
+
+@media only screen and (max-width: 600px) {
+	.resize-artist {
+		width: 100%;
+		padding: 10px 10px 0 10px;
+	}
+}
 
 @media only screen and (max-width: 504px) {
   .flow-text, a#logo-container {
