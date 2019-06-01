@@ -102,6 +102,8 @@ $(document).ready(function () {
                   // Empty the contents of the artist-div, append the new artist content
                   $(".card-image").empty();
                   $(".card-image").append(artistImage);
+                  $(".card-image").addClass('resize-artist');
+                  $(".card").removeClass('black');
                 });
               }
             
