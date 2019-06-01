@@ -1,0 +1,222 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.row {
+	margin: 0;
+}
+
+.row .col {
+	padding: 0;
+}
+
+.container {
+	width: 95%;
+}
+
+#main {
+	flex: 1 0 auto;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+	margin-bottom: .5rem;
+}
+
+h5 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+
+p {
+	font-size: 1em;
+}
+
+
+#user-form {
+	margin-left: 5%;
+	margin-top: 25px;
+}
+
+.btn {
+	background-color: #00A6FB;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.btn:hover {
+	background-color: #6247AA;
+
+}
+
+.card {
+	box-shadow: none;
+	margin: 0;
+}
+
+.card .card-title {
+	margin-left: 10px;
+}
+
+.card-content p {
+	font-size: 1.5em;
+	line-height: 0rem;
+}
+
+#other-concerts {
+	background-color: lightyellow;
+	height: 400px;
+}
+
+#concert-results button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0 15%;
+}
+
+#map {
+	background-color: #000;
+}
+
+footer.page-footer {
+	padding: 30px;
+}
+
+.icon-block .material-icons {
+	padding-top: 15px;
+}
+
+
+
+.black-shadows-color {
+    background-color: lightgray;
+}
+
+
+img.logo {
+    margin-top: 53px;
+    height: 55px;
+    width: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .flow-text, a#logo-container {
+    font-size: 130%;
+  }
+}
+
+
+@media only screen and (max-width: 504px) {
+  .flow-text, a#logo-container {
+    font-size: 121%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .flow-text, a#logo-container {
+    font-size: 108%;
+  }
+}
+
+
+@media only screen and (max-width: 310px) {
+  .flow-text, a#logo-container {
+    font-size: 104%;
+  }
+}
+
+.logo-footer {
+    height: 45px;
+    width: auto;
+    margin-top: 30px;
+}
+
+
+nav.navbar-color {
+    background-color: #320E3B;
+}
+
+
+/*-----Footer styling-----*/
+
+
+/* Demo Stuff */
+*,:before,:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+h1, h2 {
+  text-align: center;
+  line-height: 20px
+}
+h1 {
+    color: rgba(0,0,0,.8);
+}
+
+h2 {
+  color: rgba(0,0,0,.2);
+}
+
+.social-container {
+	margin:0 auto;
+  padding: 40px 0;
+	width:200px;
+  height:100%;
+}
+
+
+
+/* Button Styles */
+.social-container a {
+display: block;
+width:200px;
+line-height: 40px;
+border: 1px solid rgba(0,0,0,.1);
+color: rgba(0,0,0,.6);
+margin:20px 0;
+text-decoration: none;
+text-align:center;
+}
+
+.social-container a i {
+margin-right: 15px;   
+}
+
+.social-container a:hover  {
+border: 1px solid rgba(255,255,255,.3);
+color: rgba(255,255,255,.6);
+}
+
+/* Hover background colors */
+.color-twitter {
+  background-color: #00aced !important;
+}
+.color-facebook {
+  background-color: #3b5998 !important;
+}
+.color-instagram {
+  background-color: #dd4b39 !important;
+}
+
+.color-twitter,
+.color-facebook,
+.color-pinterest,
+.color-googleplus,
+.color-dribbble,
+.color-instagram {
+-webkit-transition: all .2s ease-in;
+-moz-transition: all .2s ease-in;
+-ms-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+transition: all .2s ease-in;
+    
+}
